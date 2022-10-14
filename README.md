@@ -1,5 +1,7 @@
 # Siberian fires analysis
 
+<a href="https://zenodo.org/badge/latestdoi/551477788"><img src="https://zenodo.org/badge/551477788.svg" alt="DOI"></a>
+
 
 
 
