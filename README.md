@@ -5,7 +5,7 @@
 
 Python and R code for the analysis of drivers of Siberian fire extremes
 
-This code uses satellite and reanalysis data to identify weeks with extreme fire activity in the larch forests of Siberia and subsequently analyse drivers of these extreme fires. The results of this work are in press (Scholten et al., 2022). The datasets required for the code are listed in the data requirements and linked in the data availability statement of Scholten et al. (2022). 
+This code uses satellite and reanalysis data to identify weeks with extreme fire activity in the larch forests of Siberia and subsequently analyse drivers of these extreme fires. The results of this work are in review (Scholten et al., 2022). The datasets required for the code are listed in the data requirements and linked in the data availability statement of Scholten et al. (2022). 
   
 The scripts include the preprocessing steps (P) and the analyses (A) as shown in the workflow below. The source code for all display items in the publication is also included. Preprocessing was done in python, whereas analyses and plots were coded in R. For easier readability functions used in each script are pasted directly in the corresponding script. If you have any comments or suggestions regarding the code, please share them with us. Also feel free to contact us if you have any questions about the code, data or the analysis in general.
 
