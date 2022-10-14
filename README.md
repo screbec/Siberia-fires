@@ -1,7 +1,6 @@
 # Siberian fires analysis
 
 
-<a href="https://zenodo.org/badge/latestdoi/339752933"><img src="https://zenodo.org/badge/339752933.svg" alt="DOI"></a>
 
 
 Python and R code for the analysis of drivers of Siberian fire extremes
@@ -18,10 +17,10 @@ The scripts include the preprocessing steps (P) and the analyses (A) as shown in
 - Clip the gridded fire product to the Siberian larch forests and compute weekly fire summary statistics (00_modis/003_clip2nesib.py)
 - Aggregate weather data to weekly averages, compute additional variables and anomalies  (01_weather/020_weekly_fwi.py and 020_weekly_weather.R)
 - Prepare snow data for analysis:
- - Compute first snow-free day from NSIDC data and compute anomalies (02_snow/050_snow_nsidc.R)
- - Aggregate first snow-free days from MXD10 (processed in GEE using doi:10.5281/zenodo.596556) to 0.25 degree grid (02_snow/regrid_snow_gee_025degree.py)
- - Prepare MODIS snowmelt data for analysis and compute anomalies (02_snow/051_snow_gee.R)
-- load and preprocess fire and lightning datasets (includes filtering, computation of climatologies and anomalies) (03_analysis/990_siberia_load.R)
+    - Compute first snow-free day from NSIDC data and compute anomalies (02_snow/050_snow_nsidc.R)
+    - Aggregate first snow-free days from MXD10 (processed in GEE using doi:10.5281/zenodo.596556) to 0.25 degree grid (02_snow/regrid_snow_gee_025degree.py)
+    - Prepare MODIS snowmelt data for analysis and compute anomalies (02_snow/051_snow_gee.R)
+- Preprocess fire and lightning datasets (includes filtering, computation of climatologies and anomalies) (03_analysis/990_siberia_load.R)
 #### 2. Analysis of drivers:
 - Code for fire climatology and study area plots in Fig.1 and Fig.S8 (03_analysis/994_siberia_fireclim.R)
 - Code for Fig.2 and Fig. S5 (03_analysis/991_figure2.py)
